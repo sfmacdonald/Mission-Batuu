@@ -132,6 +132,7 @@ body, html{
   .content-body p {
     margin-top: 100px; /* Adds space above each paragraph */
     margin-bottom: 100px; /* Adds space below each paragraph */
+    width: auto;
   }
   
   
