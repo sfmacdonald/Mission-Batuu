@@ -24,7 +24,34 @@ body, html{
     overflow: hidden;
     position: relative;
   }
-  
+
+  /* Adjustments for smaller screens */
+@media only screen and (max-width: 768px) {
+  .star-wars-intro p.intro-text,
+  .star-wars-intro .main-content {
+      font-size: 16px; /* Adjust font size for readability */
+  }
+
+  .star-wars-intro .main-logo {
+      width: 80%; /* Adjust logo size */
+      font-size: 5em; /* Adjust logo text size if using text instead of an image */
+      margin-left: -40%; /* Adjust logo positioning */
+  }
+
+  .star-wars-intro .main-content {
+      font-size: 14px; /* Adjust main content font size for readability */
+  }
+
+  .star-wars-intro .space-button {
+      padding: 10px; /* Adjust button size for easier tapping */
+      font-size: 14px; /* Adjust button font size for readability */
+  }
+
+  /* Adjust the scrolling content speed and delay for a better mobile experience */
+  .star-wars-intro .title-content {
+      animation: scroll 150s linear 5s forwards; /* Slow down the scroll speed */
+  }
+} 
   .star-wars-intro p.intro-text {
     position: relative;
     max-width: 50em;
