@@ -202,9 +202,9 @@ body, html{
     100% { top: -170%; }
   }
   
-  @media screen and (max-width: 720px) {
+  @media screen and (max-width: 768px) {
     .star-wars-intro .main-content {
-      font-size: 35px;
+      font-size: 10px;
     }
     .star-wars-intro .title-content {
       position: absolute;
