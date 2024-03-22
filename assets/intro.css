@@ -45,6 +45,8 @@ body, html{
   .star-wars-intro .space-button {
       padding: 10px; /* Adjust button size for easier tapping */
       font-size: 14px; /* Adjust button font size for readability */
+      height: auto; /* Adjust height to accommodate content */
+        padding: 20px; /* Add padding for better spacing */
   }
 
   /* Adjust the scrolling content speed and delay for a better mobile experience */
