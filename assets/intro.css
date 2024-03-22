@@ -26,7 +26,7 @@ body, html{
   }
 
   /* Adjustments for smaller screens */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .star-wars-intro p.intro-text,
   .star-wars-intro .main-content {
       font-size: 10px; /* Adjust font size for readability */
