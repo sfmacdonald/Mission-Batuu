@@ -58,7 +58,7 @@ body, html{
   .star-wars-intro p.intro-text {
     position: relative;
     max-width: 50em;
-    font-size: 200%;
+    font-size: 400%;
     font-weight: 400;
     margin: 20% auto;
     color: #4ee;
@@ -127,7 +127,7 @@ body, html{
   .star-wars-intro .title-content {
     position: absolute;
     top: 100%;
-    animation: scroll 200s linear 8s forwards;
+    animation: scroll 300s linear 8s forwards;
   }
   
   .star-wars-intro .title-content > .content-header {
